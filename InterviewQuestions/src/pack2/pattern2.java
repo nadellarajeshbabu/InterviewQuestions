@@ -1,0 +1,19 @@
+package pack2;
+
+public class pattern2 
+{
+	public static void main(String[] args)
+	{
+		for(char i='E';i>='A';i--)
+		{
+			for(char j='E';j>=i;j--)
+			{
+				System.out.print(i);
+			}
+			System.out.println();
+			
+		}
+	
+	}
+
+}
